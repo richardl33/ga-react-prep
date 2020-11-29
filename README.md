@@ -1,5 +1,3 @@
-# General Assembly React JS Pre-Work
-
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -38,10 +36,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">React JS Pre-Work</h3>
 
   <p align="center">
-    project_description
+   General Assembly
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -147,9 +145,9 @@ This is an example of how to list things you need to use the software and how to
       document.getElementById('root')
    )
    ```
-   // If you want to start measuring performance in your app, pass a function
-   // to log results (for example: reportWebVitals(console.log))
-   // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+   // If you want to start measuring performance in your app, pass a function<br>
+   // to log results (for example: reportWebVitals(console.log))<br>
+   // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals<br>
    reportWebVitals();
 
 

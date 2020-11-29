@@ -11,15 +11,19 @@
 
 <div>
    <p>
-   import React from 'react';
-   import ReactDOM from 'react-dom';
-   import Hello from './App.js';
-   import reportWebVitals from './reportWebVitals';
+      <pre>
+         <code>
+         import React from 'react';
+         import ReactDOM from 'react-dom';
+         import Hello from './App.js';
+         import reportWebVitals from './reportWebVitals';
 
-   ReactDOM.render(
-   <Hello />,
-   document.getElementById('root')
-   )
+         ReactDOM.render(
+         <Hello />,
+         document.getElementById('root')
+         )
+      </code>
+   </pre>
 
    // If you want to start measuring performance in your app, pass a function
    // to log results (for example: reportWebVitals(console.log))
@@ -32,25 +36,29 @@
 
 <div>
    <p>
-      // bring in React and Component from React
+      <pre>
+         <code>
+            // bring in React and Component from React
 
-      import React, {Component} from 'react';
+            import React, {Component} from 'react';
 
-      // define our Hello component
-      class Hello extends Component {
-        // What should the component render?
-        render () {
+            // define our Hello component
+            class Hello extends Component {
+            // What should the component render?
+            render () {
 
-          // Make sure to return some UI.
-          return (
-            <div>
-              <h1>Hello World!</h1>
-              <h3>It is time for tea.</h3>
-            </div>
-          )
-        }
-      }
+               // Make sure to return some UI.
+               return (
+                  <div>
+                  <h1>Hello World!</h1>
+                  <h3>It is time for tea.</h3>
+                  </div>
+               )
+            }
+            }
 
-      export default Hello
+            export default Hello
+         </code>
+      </pre>
    </p>
 </div>

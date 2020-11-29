@@ -16,17 +16,17 @@
          import reportWebVitals from './reportWebVitals';
 
          ReactDOM.render(
-         <Hello />,
-         document.getElementById('root')
+            <Hello name={"Nick"} age={24}/>,
+            document.getElementById('root')
          )
       </code>
    </pre>
 
    <p>
-   // If you want to start measuring performance in your app, pass a function
-   // to log results (for example: reportWebVitals(console.log))
-   // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-   reportWebVitals();
+      // If you want to start measuring performance in your app, pass a function
+      // to log results (for example: reportWebVitals(console.log))
+      // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+      reportWebVitals();
    </p>
 </div>
 
@@ -34,26 +34,26 @@
 
    <pre>
       <code>
-         // bring in React and Component from React
+      // bring in React and Component from React
 
-         import React, {Component} from 'react';
+      import React, {Component} from 'react';
 
-         // define our Hello component
-         class Hello extends Component {
+      // define our Hello component
+      class Hello extends Component {
          // What should the component render?
          render () {
 
             // Make sure to return some UI.
             return (
                <div>
-               <h1>Hello World!</h1>
-               <h3>It is time for tea.</h3>
+                  <h1>Hello {this.props.name}!</h1>
+                  <h3>You are {this.props.age} years old</h3>
                </div>
             )
          }
-         }
+      }
 
-         export default Hello
+      export default Hello
       </code>
    </pre>
 </div>

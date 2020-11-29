@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 ReactDOM.render(
-  <Hello />,
+  <Hello name={"Nick"} age={24}/>,
   document.getElementById('root')
 )
 

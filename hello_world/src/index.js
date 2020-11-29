@@ -5,6 +5,16 @@ import ReactDOM from 'react-dom';
 import Hello from './App.js';
 import reportWebVitals from './reportWebVitals';
 
+var person = {
+  personName: "Nick",
+  personAge: 24,
+  favorites: [
+    "capybaras",
+    "Tigers",
+    "Dinosaurs count!"
+  ]
+}
+
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <App />
@@ -13,7 +23,11 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 ReactDOM.render(
-  <Hello name={"Nick"} age={24}/>,
+  <Hello
+    name={person.personName}
+    age={person.personAge}
+    animals={person.favorites}
+  />,
   document.getElementById('root')
 )
 
